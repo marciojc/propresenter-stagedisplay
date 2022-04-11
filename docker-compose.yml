@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  propresenter:
+    image: nginx:alpine
+    container_name: propresenter
+    restart: unless-stopped
+    working_dir: /usr/share/nginx/html
+    tty: true
+    volumes:
+      - .:/usr/share/nginx/html
+    ports:
+      - '8080:80'
