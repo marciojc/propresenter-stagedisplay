@@ -10,7 +10,7 @@ To run with docker-compose:
 
 ## Usage
 
-Open `http://localhost:8080` and veridy if the connection is established.
-Go to stagedisplay mode, on propresenter app change the slide and the text will appear on the browser.
+Open `http://localhost:8080` and verify if the connection is established.
+Go to stage display mode, on the pro presenter app change the slide, and the text will appear on the browser.
 
 
